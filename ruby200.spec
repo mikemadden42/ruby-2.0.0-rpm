@@ -1,5 +1,5 @@
 %define rubyver         2.0.0
-%define rubyminorver    p353
+%define rubyminorver    p598
 
 Name:           ruby
 Version:        %{rubyver}%{rubyminorver}
@@ -64,6 +64,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}
 
 %changelog
+* Mon Jan 6 2015 Michael Madden <mikemadden42@gmail.com> - 2.0.0-p598 
+- Update for Ruby 2.0.0-p598 release.
+
 * Sat Nov 23 2013 Masahito Yoshida <masahito@axsh.net> - 2.0.0-p353
 - Update ruby version to 2.0.0-p353
 
